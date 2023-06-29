@@ -1,0 +1,126 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>mapper.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\0arrowslit.png" />
+    <None Remove="Resources\0blank.png" />
+    <None Remove="Resources\0chest.png" />
+    <None Remove="Resources\0circle.png" />
+    <None Remove="Resources\0corner.png" />
+    <None Remove="Resources\0door.png" />
+    <None Remove="Resources\0intersection.png" />
+    <None Remove="Resources\0pentagram.png" />
+    <None Remove="Resources\0portcullis.png" />
+    <None Remove="Resources\0portculliscorner.png" />
+    <None Remove="Resources\0portcullisintersection.png" />
+    <None Remove="Resources\0portcullistee.png" />
+    <None Remove="Resources\0portculliswallintersection.png" />
+    <None Remove="Resources\0portculliswalltee.png" />
+    <None Remove="Resources\0secretdoor.png" />
+    <None Remove="Resources\0stairsdown.png" />
+    <None Remove="Resources\0stairsup.png" />
+    <None Remove="Resources\0tee.png" />
+    <None Remove="Resources\0throne.png" />
+    <None Remove="Resources\0trapdoor.png" />
+    <None Remove="Resources\0wall.png" />
+    <None Remove="Resources\1arrowslit.png" />
+    <None Remove="Resources\1blank.png" />
+    <None Remove="Resources\1chest.png" />
+    <None Remove="Resources\1circle.png" />
+    <None Remove="Resources\1corner.png" />
+    <None Remove="Resources\1door.png" />
+    <None Remove="Resources\1intersection.png" />
+    <None Remove="Resources\1pentagram.png" />
+    <None Remove="Resources\1portcullis.png" />
+    <None Remove="Resources\1portculliscorner.png" />
+    <None Remove="Resources\1portcullisintersection.png" />
+    <None Remove="Resources\1portcullistee.png" />
+    <None Remove="Resources\1portculliswallintersection.png" />
+    <None Remove="Resources\1portculliswalltee.png" />
+    <None Remove="Resources\1secretdoor.png" />
+    <None Remove="Resources\1stairsdown.png" />
+    <None Remove="Resources\1stairsup.png" />
+    <None Remove="Resources\1tee.png" />
+    <None Remove="Resources\1throne.png" />
+    <None Remove="Resources\1trapdoor.png" />
+    <None Remove="Resources\1wall.png" />
+    <None Remove="Resources\c_back.png" />
+    <None Remove="Resources\c_clear.png" />
+    <None Remove="Resources\c_erase.png" />
+    <None Remove="Resources\c_exit.png" />
+    <None Remove="Resources\c_left.png" />
+    <None Remove="Resources\c_load.png" />
+    <None Remove="Resources\c_right.png" />
+    <None Remove="Resources\c_save.png" />
+    <None Remove="Resources\c_savepic.png" />
+    <None Remove="Resources\c_settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="mapper.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\0arrowslit.png" />
+    <EmbeddedResource Include="Resources\0blank.png" />
+    <EmbeddedResource Include="Resources\0chest.png" />
+    <EmbeddedResource Include="Resources\0circle.png" />
+    <EmbeddedResource Include="Resources\0corner.png" />
+    <EmbeddedResource Include="Resources\0door.png" />
+    <EmbeddedResource Include="Resources\0intersection.png" />
+    <EmbeddedResource Include="Resources\0pentagram.png" />
+    <EmbeddedResource Include="Resources\0portcullis.png" />
+    <EmbeddedResource Include="Resources\0portculliscorner.png" />
+    <EmbeddedResource Include="Resources\0portcullisintersection.png" />
+    <EmbeddedResource Include="Resources\0portcullistee.png" />
+    <EmbeddedResource Include="Resources\0portculliswallintersection.png" />
+    <EmbeddedResource Include="Resources\0portculliswalltee.png" />
+    <EmbeddedResource Include="Resources\0secretdoor.png" />
+    <EmbeddedResource Include="Resources\0stairsdown.png" />
+    <EmbeddedResource Include="Resources\0stairsup.png" />
+    <EmbeddedResource Include="Resources\0tee.png" />
+    <EmbeddedResource Include="Resources\0throne.png" />
+    <EmbeddedResource Include="Resources\0trapdoor.png" />
+    <EmbeddedResource Include="Resources\0wall.png" />
+    <EmbeddedResource Include="Resources\1arrowslit.png" />
+    <EmbeddedResource Include="Resources\1blank.png" />
+    <EmbeddedResource Include="Resources\1chest.png" />
+    <EmbeddedResource Include="Resources\1circle.png" />
+    <EmbeddedResource Include="Resources\1corner.png" />
+    <EmbeddedResource Include="Resources\1door.png" />
+    <EmbeddedResource Include="Resources\1intersection.png" />
+    <EmbeddedResource Include="Resources\1pentagram.png" />
+    <EmbeddedResource Include="Resources\1portcullis.png" />
+    <EmbeddedResource Include="Resources\1portculliscorner.png" />
+    <EmbeddedResource Include="Resources\1portcullisintersection.png" />
+    <EmbeddedResource Include="Resources\1portcullistee.png" />
+    <EmbeddedResource Include="Resources\1portculliswallintersection.png" />
+    <EmbeddedResource Include="Resources\1portculliswalltee.png" />
+    <EmbeddedResource Include="Resources\1secretdoor.png" />
+    <EmbeddedResource Include="Resources\1stairsdown.png" />
+    <EmbeddedResource Include="Resources\1stairsup.png" />
+    <EmbeddedResource Include="Resources\1tee.png" />
+    <EmbeddedResource Include="Resources\1throne.png" />
+    <EmbeddedResource Include="Resources\1trapdoor.png" />
+    <EmbeddedResource Include="Resources\1wall.png" />
+    <EmbeddedResource Include="Resources\c_back.png" />
+    <EmbeddedResource Include="Resources\c_clear.png" />
+    <EmbeddedResource Include="Resources\c_erase.png" />
+    <EmbeddedResource Include="Resources\c_exit.png" />
+    <EmbeddedResource Include="Resources\c_left.png" />
+    <EmbeddedResource Include="Resources\c_load.png" />
+    <EmbeddedResource Include="Resources\c_right.png" />
+    <EmbeddedResource Include="Resources\c_save.png" />
+    <EmbeddedResource Include="Resources\c_savepic.png" />
+    <EmbeddedResource Include="Resources\c_settings.png" />
+  </ItemGroup>
+
+</Project>
